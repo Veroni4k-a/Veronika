@@ -25,6 +25,14 @@ body{
     font-weight: bold;
 }
 
+
+.cont-1{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .container{
    margin-left: 180px;
    margin-top: 400px;
@@ -78,7 +86,7 @@ body{
 }
 
 .text_2{
-    font-weight: bolder;
+    /* font-weight: bold; */
     font-size: 20px;
     text-align: left;
 } 
@@ -86,7 +94,7 @@ body{
 .container_3{
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    
 }
 .box{
     text-align: center;
@@ -114,8 +122,89 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    margin-left: 300px;
+    font-family: "Poppins", sans-serif;
 }
 
 .blok{
     margin: 20px 60px;
+    padding-bottom: 20px;
+    text-align: left;
+    
+
+}
+
+
+.container_4{
+text-align: center;
+justify-content: center;
+align-items: baseline;
+
+
+}
+
+.block{
+  
+    display: grid;
+    place-items: center;
+    /* margin-left: 250px; */
+    
+}
+.card{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+
+}
+
+.col_2{
+    padding-left: 30px;
+    text-align: left;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.blok{
+    margin: 20px ;
+}
+
+
+.foto{
+    text-align: center;
+    justify-content: center;
+}
+
+.trio_foto{
+    display: inline;
+}
+
+.grid_price{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-row: 1fr 1fr 1fr;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 295px;
+
+}
+
+.krug{
+    align-items: middle;
+}
+
+.container_5{
+    text-align: center;
+    justify-content: center;
+    /* margin-left: 300px; */
+    
+    }
+
+p{
+    font-family: "Poppins", sans-serif;
 }
